@@ -1,0 +1,15 @@
+{
+  "name": "test-interface",
+  "description": "",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "3.7.3"
+  },
+  "main": "dist/index.js"
+}

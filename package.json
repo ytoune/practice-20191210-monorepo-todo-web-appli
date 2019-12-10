@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "ytoune"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {},
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}

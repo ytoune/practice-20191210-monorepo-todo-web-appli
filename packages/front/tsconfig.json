@@ -1,0 +1,12 @@
+{
+  "extends": "../../base.tsconfig.jsonc",
+  "include": ["src/**/*", "scripts/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "downlevelIteration": true,
+    "paths": { "~/*": ["*"] }
+  }
+}

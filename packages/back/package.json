@@ -1,0 +1,37 @@
+{
+  "name": "test-back",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register src/index.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "class-transformer": "0.2.3",
+    "class-validator": "0.11.0",
+    "generic-type-guard": "3.1.0",
+    "koa": "2.11.0",
+    "koa-bodyparser": "4.2.1",
+    "koa-router": "7.4.0",
+    "reflect-metadata": "0.1.13",
+    "routing-controllers": "0.8.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "8.0.1",
+    "@types/gh-pages": "2.0.1",
+    "@types/koa": "2.11.0",
+    "@types/node": "12.12.16",
+    "@typescript-eslint/eslint-plugin": "2.11.0",
+    "@typescript-eslint/parser": "2.11.0",
+    "eslint": "6.7.2",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "fs-extra": "8.1.0",
+    "gh-pages": "2.1.1",
+    "prettier": "1.19.1",
+    "ts-node": "8.5.4",
+    "ts-node-dev": "1.0.0-pre.44",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "3.7.3"
+  }
+}
