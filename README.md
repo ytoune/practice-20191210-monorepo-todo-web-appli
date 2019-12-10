@@ -2,17 +2,17 @@
 
 ```sh
 yarn
-(cd packages/interface && yarn build)
+yarn workspace test-interface build
 ```
 
 # start backend server
 
 ```sh
-(cd packages/back && yarn dev) # localhost:3000
+yarn workspace test-back dev # localhost:3000
 ```
 
 # start frontend server
 
 ```sh
-(cd packages/front && yarn dev) # localhost:1234
+yarn workspace test-front dev # localhost:1234
 ```
